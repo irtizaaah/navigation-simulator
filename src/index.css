@@ -1,0 +1,73 @@
+:root{
+  /* BODY */
+  --background-color: #ffff;
+  --heading-color: #222831;
+
+  /* BUTTON */
+  --button-background-color: #f1f1f1;
+  --button-background-hovered-color: #d6d6d6;
+  --button-background-clicked-color: #FFD369;
+  --button-text-color: #222831;
+  --button-on-color: #FFC60B;
+  --button-background-clicked-hovered-color: #FFC60B;
+
+  --button-travel-background-color: #57CC99;
+  --button-travel-background-hovered-color: #4de0a1;
+  --button-travel-background-clicked-color: #36a877;
+  --button-travel-text-color: #ffff;
+
+  /* MODAL/NAV */
+  --modal-cross-hovered-color: #a1a1a1;
+  --navbar-option-hovered-color: #a1a1a1;
+
+  /* DASHBOARD */
+  --dashboard-key-text-color: #a1a1a1;
+  --dashboard-time-background-color: #222831;
+  --dashboard-time-text-color: #ffff;
+  
+  /* GRID */
+  --grid-edit-color: #57ccb8;
+  --grid-border-color: #f1f1f1;
+  --grid-color: #d8d8d8;
+
+  /* NODE */
+  --node-unvisited-color:#f1f1f1;
+  --node-unvisited-edit-color: #ebebeb;
+
+  --node-hovered-color: #d8d8d8;
+  --node-continuous-hovered-color: #FFC60B;
+  
+  --node-start-color: #3bd2ed;
+  --node-start-hovered-color: #8beeff;
+  --node-start-continuous-hovered-color: #8beeff;
+
+  --node-end-color: #ed3e3b;
+  --node-end-hovered-color: #ff9f9e;
+  --node-end-continuous-hovered-color: #ff9f9e;
+
+  --node-weighted-color: #FFC60B;
+  --node-weighted-hovered-color: #ffca6e;
+  --node-continuous-hovered-color: #FFC60B;
+
+  --node-blocked-color: #222831;
+
+  /* NODE ANIMATION*/
+  --node-visited-50-color: #218b8d;
+  --node-visited-75-color:#80ED99;
+  --node-visited-100-color:#57CC99;
+
+  --node-shortest_path-50-color: #FF8B00;
+  --node-shortest_path-75-color:#FEFFDB;
+  --node-shortest_path-100-color:#ffe23e;
+
+  --node-blocked-50-color: #171a1f;
+  --node-blocked-75-color:#7791b9;
+  --node-blocked-100-color:#222831;
+} 
+
+* {    
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+  background-color: var(--background-color);
+}

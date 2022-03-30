@@ -1,0 +1,24 @@
+.dashboard_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 0 0 1rem 0;
+    padding: 0 1rem;
+}
+.key{
+    font-size: 0.75rem;
+    color: var(--dashboard-key-text-color);
+}
+.square_unicode{
+    font-size: 1.25rem;
+}
+.dashboard_container-travel_time{
+    font-size: 1rem;
+    font-weight: 700;
+    background-color: var(--dashboard-time-background-color);
+    color: var(--dashboard-time-text-color);
+    padding: 0.5rem;
+    border-radius: 5px;
+
+}

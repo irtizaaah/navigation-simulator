@@ -1,0 +1,30 @@
+.modal_container{
+    top: 5vh;
+    width: 60vw;
+    position: absolute;
+
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+    border-color: var(--grid-border-color);
+    border-style: solid;
+    border-width: 0px;
+
+    margin: 1rem;
+    padding: 3rem;
+
+    display: none;
+}
+
+.show{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.modal_container-button:hover{
+    color: var(--modal-cross-hovered-color);
+}
+
+.modal_container-header{
+    display: flex;
+    width: 100%;
+}
